@@ -26,12 +26,18 @@ namespace Films
             // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
             builder.Services.AddOpenApi();
 
+            builder.Services.AddEndpointsApiExplorer(); // сканує ендпоінти для генерації OpenAPI-документу
+            builder.Services.AddSwaggerGen(); // генерує OpenAPI-документ на основі відсканованих ендпоінтів
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
                 app.MapOpenApi();
+
+                app.UseSwagger(); // генерує /swagger/v1/swagger.json
+                app.UseSwaggerUI(); // UI на /swagger
             }
             app.UseStaticFiles();
             app.UseHttpsRedirection();

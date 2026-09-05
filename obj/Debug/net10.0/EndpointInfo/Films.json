@@ -1,17 +1,9 @@
 {
-  "openapi": "3.1.1",
+  "openapi": "3.0.4",
   "info": {
-    "title": "Films | v1",
-    "version": "1.0.0"
+    "title": "Films",
+    "version": "1.0"
   },
-  "servers": [
-    {
-      "url": "https://localhost:7156"
-    },
-    {
-      "url": "http://localhost:5092"
-    }
-  ],
   "paths": {
     "/api": {
       "get": {
@@ -71,82 +63,102 @@
           "content": {
             "multipart/form-data": {
               "schema": {
+                "required": [
+                  "Age",
+                  "Description",
+                  "Director",
+                  "Genre",
+                  "Name"
+                ],
                 "type": "object",
-                "allOf": [
-                  {
-                    "type": "object",
-                    "properties": {
-                      "Id": {
-                        "pattern": "^-?(?:0|[1-9]\\d*)$",
-                        "type": [
-                          "integer",
-                          "string"
-                        ],
-                        "format": "int32"
-                      },
-                      "Name": {
-                        "maxLength": 200,
-                        "minLength": 1,
-                        "type": "string"
-                      },
-                      "Director": {
-                        "maxLength": 200,
-                        "minLength": 1,
-                        "type": "string"
-                      },
-                      "Genre": {
-                        "maxLength": 200,
-                        "minLength": 1,
-                        "type": "string"
-                      },
-                      "Poster.Id": {
-                        "pattern": "^-?(?:0|[1-9]\\d*)$",
-                        "type": [
-                          "integer",
-                          "string"
-                        ],
-                        "format": "int32"
-                      },
-                      "Poster.Name": {
-                        "type": "string"
-                      },
-                      "Poster.Path": {
-                        "type": "string"
-                      },
-                      "Poster.UploadDate": {
-                        "type": "string",
-                        "format": "date-time"
-                      },
-                      "Description": {
-                        "maxLength": 500,
-                        "minLength": 1,
-                        "type": "string"
-                      },
-                      "Age": {
-                        "maximum": 137,
-                        "minimum": 1,
-                        "pattern": "^-?(?:0|[1-9]\\d*)$",
-                        "type": [
-                          "integer",
-                          "string"
-                        ],
-                        "format": "int32"
-                      }
-                    }
+                "properties": {
+                  "Id": {
+                    "type": "integer",
+                    "format": "int32"
                   },
-                  {
-                    "type": "object",
-                    "properties": {
-                      "posterFile": {
-                        "$ref": "#/components/schemas/IFormFile"
-                      }
-                    }
+                  "Name": {
+                    "maxLength": 200,
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "Director": {
+                    "maxLength": 200,
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "Genre": {
+                    "maxLength": 200,
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "Poster.Id": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Poster.Name": {
+                    "type": "string"
+                  },
+                  "Poster.Path": {
+                    "type": "string"
+                  },
+                  "Poster.UploadDate": {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  "Description": {
+                    "maxLength": 500,
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "Age": {
+                    "maximum": 137,
+                    "minimum": 1,
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "posterFile": {
+                    "type": "string",
+                    "format": "binary"
                   }
-                ]
+                }
+              },
+              "encoding": {
+                "Id": {
+                  "style": "form"
+                },
+                "Name": {
+                  "style": "form"
+                },
+                "Director": {
+                  "style": "form"
+                },
+                "Genre": {
+                  "style": "form"
+                },
+                "Poster.Id": {
+                  "style": "form"
+                },
+                "Poster.Name": {
+                  "style": "form"
+                },
+                "Poster.Path": {
+                  "style": "form"
+                },
+                "Poster.UploadDate": {
+                  "style": "form"
+                },
+                "Description": {
+                  "style": "form"
+                },
+                "Age": {
+                  "style": "form"
+                },
+                "posterFile": {
+                  "style": "form"
+                }
               }
             }
-          },
-          "required": true
+          }
         },
         "responses": {
           "200": {
@@ -183,7 +195,6 @@
             "in": "path",
             "required": true,
             "schema": {
-              "pattern": "^-?(?:0|[1-9]\\d*)$",
               "type": "integer",
               "format": "int32"
             }
@@ -222,7 +233,6 @@
             "in": "path",
             "required": true,
             "schema": {
-              "pattern": "^-?(?:0|[1-9]\\d*)$",
               "type": "integer",
               "format": "int32"
             }
@@ -232,82 +242,102 @@
           "content": {
             "multipart/form-data": {
               "schema": {
+                "required": [
+                  "Age",
+                  "Description",
+                  "Director",
+                  "Genre",
+                  "Name"
+                ],
                 "type": "object",
-                "allOf": [
-                  {
-                    "type": "object",
-                    "properties": {
-                      "Id": {
-                        "pattern": "^-?(?:0|[1-9]\\d*)$",
-                        "type": [
-                          "integer",
-                          "string"
-                        ],
-                        "format": "int32"
-                      },
-                      "Name": {
-                        "maxLength": 200,
-                        "minLength": 1,
-                        "type": "string"
-                      },
-                      "Director": {
-                        "maxLength": 200,
-                        "minLength": 1,
-                        "type": "string"
-                      },
-                      "Genre": {
-                        "maxLength": 200,
-                        "minLength": 1,
-                        "type": "string"
-                      },
-                      "Poster.Id": {
-                        "pattern": "^-?(?:0|[1-9]\\d*)$",
-                        "type": [
-                          "integer",
-                          "string"
-                        ],
-                        "format": "int32"
-                      },
-                      "Poster.Name": {
-                        "type": "string"
-                      },
-                      "Poster.Path": {
-                        "type": "string"
-                      },
-                      "Poster.UploadDate": {
-                        "type": "string",
-                        "format": "date-time"
-                      },
-                      "Description": {
-                        "maxLength": 500,
-                        "minLength": 1,
-                        "type": "string"
-                      },
-                      "Age": {
-                        "maximum": 137,
-                        "minimum": 1,
-                        "pattern": "^-?(?:0|[1-9]\\d*)$",
-                        "type": [
-                          "integer",
-                          "string"
-                        ],
-                        "format": "int32"
-                      }
-                    }
+                "properties": {
+                  "Id": {
+                    "type": "integer",
+                    "format": "int32"
                   },
-                  {
-                    "type": "object",
-                    "properties": {
-                      "posterFile": {
-                        "$ref": "#/components/schemas/IFormFile"
-                      }
-                    }
+                  "Name": {
+                    "maxLength": 200,
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "Director": {
+                    "maxLength": 200,
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "Genre": {
+                    "maxLength": 200,
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "Poster.Id": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Poster.Name": {
+                    "type": "string"
+                  },
+                  "Poster.Path": {
+                    "type": "string"
+                  },
+                  "Poster.UploadDate": {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  "Description": {
+                    "maxLength": 500,
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "Age": {
+                    "maximum": 137,
+                    "minimum": 1,
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "posterFile": {
+                    "type": "string",
+                    "format": "binary"
                   }
-                ]
+                }
+              },
+              "encoding": {
+                "Id": {
+                  "style": "form"
+                },
+                "Name": {
+                  "style": "form"
+                },
+                "Director": {
+                  "style": "form"
+                },
+                "Genre": {
+                  "style": "form"
+                },
+                "Poster.Id": {
+                  "style": "form"
+                },
+                "Poster.Name": {
+                  "style": "form"
+                },
+                "Poster.Path": {
+                  "style": "form"
+                },
+                "Poster.UploadDate": {
+                  "style": "form"
+                },
+                "Description": {
+                  "style": "form"
+                },
+                "Age": {
+                  "style": "form"
+                },
+                "posterFile": {
+                  "style": "form"
+                }
               }
             }
-          },
-          "required": true
+          }
         },
         "responses": {
           "200": {
@@ -325,7 +355,6 @@
             "in": "path",
             "required": true,
             "schema": {
-              "pattern": "^-?(?:0|[1-9]\\d*)$",
               "type": "integer",
               "format": "int32"
             }
@@ -345,106 +374,69 @@
         "type": "object",
         "properties": {
           "id": {
-            "pattern": "^-?(?:0|[1-9]\\d*)$",
-            "type": [
-              "integer",
-              "string"
-            ],
+            "type": "integer",
             "format": "int32"
           },
           "name": {
-            "type": [
-              "null",
-              "string"
-            ]
+            "type": "string",
+            "nullable": true
           },
           "path": {
-            "type": [
-              "null",
-              "string"
-            ]
+            "type": "string",
+            "nullable": true
           },
           "uploadDate": {
             "type": "string",
             "format": "date-time"
           }
-        }
-      },
-      "IFormFile": {
-        "type": "string",
-        "format": "binary"
+        },
+        "additionalProperties": false
       },
       "Movie": {
         "required": [
-          "name",
+          "age",
+          "description",
           "director",
           "genre",
-          "description",
-          "age"
+          "name"
         ],
         "type": "object",
         "properties": {
           "id": {
-            "pattern": "^-?(?:0|[1-9]\\d*)$",
-            "type": [
-              "integer",
-              "string"
-            ],
+            "type": "integer",
             "format": "int32"
           },
           "name": {
             "maxLength": 200,
             "minLength": 1,
-            "type": [
-              "null",
-              "string"
-            ]
+            "type": "string"
           },
           "director": {
             "maxLength": 200,
             "minLength": 1,
-            "type": [
-              "null",
-              "string"
-            ]
+            "type": "string"
           },
           "genre": {
             "maxLength": 200,
             "minLength": 1,
-            "type": [
-              "null",
-              "string"
-            ]
+            "type": "string"
           },
           "poster": {
-            "oneOf": [
-              {
-                "type": "null"
-              },
-              {
-                "$ref": "#/components/schemas/FileModel"
-              }
-            ]
+            "$ref": "#/components/schemas/FileModel"
           },
           "description": {
             "maxLength": 500,
             "minLength": 1,
-            "type": [
-              "null",
-              "string"
-            ]
+            "type": "string"
           },
           "age": {
             "maximum": 137,
             "minimum": 1,
-            "pattern": "^-?(?:0|[1-9]\\d*)$",
-            "type": [
-              "integer",
-              "string"
-            ],
+            "type": "integer",
             "format": "int32"
           }
-        }
+        },
+        "additionalProperties": false
       }
     }
   },

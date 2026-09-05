@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9214AB7C-3FD7-FE63-810D-0CB5DCE8E58E}|Films.csproj|c:\\users\\pc\\desktop\\asp-net\\films\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9214AB7C-3FD7-FE63-810D-0CB5DCE8E58E}|Films.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9214AB7C-3FD7-FE63-810D-0CB5DCE8E58E}|Films.csproj|c:\\users\\pc\\desktop\\asp-net\\films\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9214AB7C-3FD7-FE63-810D-0CB5DCE8E58E}|Films.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -90,7 +94,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -98,7 +102,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-05T13:12:00.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "IDetails.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Services\\Interfaces\\IDetails.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\IDetails.cs",
@@ -106,12 +123,11 @@
               "RelativeToolTip": "Services\\Interfaces\\IDetails.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T10:51:13.736Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-05T10:51:13.736Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "IDelete.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Services\\Interfaces\\IDelete.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\IDelete.cs",
@@ -119,12 +135,11 @@
               "RelativeToolTip": "Services\\Interfaces\\IDelete.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T10:50:38.859Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-05T10:50:38.859Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ICreate.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Services\\Interfaces\\ICreate.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\ICreate.cs",
@@ -132,12 +147,11 @@
               "RelativeToolTip": "Services\\Interfaces\\ICreate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T10:50:28.482Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-05T10:50:28.482Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "MovieController.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Controllers\\MovieController.cs",
               "RelativeDocumentMoniker": "Controllers\\MovieController.cs",
@@ -145,12 +159,11 @@
               "RelativeToolTip": "Controllers\\MovieController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T10:57:14.831Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-05T10:57:14.831Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -162,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "DetailsService.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Services\\DetailsService.cs",
               "RelativeDocumentMoniker": "Services\\DetailsService.cs",
@@ -170,12 +183,11 @@
               "RelativeToolTip": "Services\\DetailsService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T10:52:24.004Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-05T10:52:24.004Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "CreateService.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Services\\CreateService.cs",
               "RelativeDocumentMoniker": "Services\\CreateService.cs",
@@ -183,12 +195,11 @@
               "RelativeToolTip": "Services\\CreateService.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAqwCwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T10:51:49.719Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-05T10:51:49.719Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "EditService.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Services\\EditService.cs",
               "RelativeDocumentMoniker": "Services\\EditService.cs",
@@ -196,12 +207,11 @@
               "RelativeToolTip": "Services\\EditService.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAqwDUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T10:52:39.295Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-05T10:52:39.295Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CRUDRepository.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Repositories\\CRUDRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\CRUDRepository.cs",
@@ -209,12 +219,11 @@
               "RelativeToolTip": "Repositories\\CRUDRepository.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAqwDgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T10:54:05.501Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-05T10:54:05.501Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Repositories\\Interfaces\\IRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\Interfaces\\IRepository.cs",
@@ -222,25 +231,24 @@
               "RelativeToolTip": "Repositories\\Interfaces\\IRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T10:53:48.253Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-05T10:53:48.253Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwAoAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCcAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-05T10:28:37.573Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "FileModel.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Models\\FileModel.cs",
               "RelativeDocumentMoniker": "Models\\FileModel.cs",
@@ -252,7 +260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Movie.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Models\\Movie.cs",
               "RelativeDocumentMoniker": "Models\\Movie.cs",
@@ -264,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "MovieContext.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Models\\MovieContext.cs",
               "RelativeDocumentMoniker": "Models\\MovieContext.cs",
@@ -276,7 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ServiceProviderExtensions.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Services\\Extensions\\ServiceProviderExtensions.cs",
               "RelativeDocumentMoniker": "Services\\Extensions\\ServiceProviderExtensions.cs",
@@ -288,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "IEdit.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Services\\Interfaces\\IEdit.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\IEdit.cs",
@@ -300,7 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "DeleteService.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Services\\DeleteService.cs",
               "RelativeDocumentMoniker": "Services\\DeleteService.cs",
@@ -312,7 +320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -324,7 +332,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "ApplicationContext.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Models\\ApplicationContext.cs",
               "RelativeDocumentMoniker": "Models\\ApplicationContext.cs",
@@ -336,7 +344,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
