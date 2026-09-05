@@ -6,32 +6,29 @@ namespace Films.Services
 {
     public class EditService : IEdit
     {
-        public Guid Id { get; } = Guid.NewGuid();
         private readonly IWebHostEnvironment _appEnvironment;
+        private readonly IRepository _repo;
 
-        private IRepository _repo;
-        public EditService(IWebHostEnvironment appEnvironmen, IRepository repo)
+        public EditService(IWebHostEnvironment appEnvironment, IRepository repo)
         {
-            Id = Guid.NewGuid();
-            _appEnvironment = appEnvironmen;
+            _appEnvironment = appEnvironment;
             _repo = repo;
         }
+
         public async Task Edit(int id, Movie movie, IFormFile? posterFile)
         {
-
             var movieInDb = await _repo.Get(id);
             if (movieInDb == null)
-                return;   // или throw new Exception($"Movie with id {id} not found");
+                return;
+
             movieInDb.Name = movie.Name;
             movieInDb.Director = movie.Director;
             movieInDb.Genre = movie.Genre;
             movieInDb.Description = movie.Description;
             movieInDb.Age = movie.Age;
 
-            // Если загрузили новый файл — меняем постер
             if (posterFile != null && posterFile.Length > 0)
             {
-
                 var uploadsFolder = Path.Combine(_appEnvironment.WebRootPath, "img");
                 Directory.CreateDirectory(uploadsFolder);
 
@@ -43,27 +40,15 @@ namespace Films.Services
                     await posterFile.CopyToAsync(stream);
                 }
 
-                // Создаём новый FileModel
-                var newPoster = new FileModel
+                movieInDb.Poster = new FileModel
                 {
                     Name = posterFile.FileName,
                     Path = "/img/" + uniqueName,
                     UploadDate = DateTime.Now
                 };
-
-                // Можно удалить старый файл с диска (по желанию)
-                // if (movieInDb.Poster != null)
-                // {
-                //     var oldPath = Path.Combine(_appEnvironment.WebRootPath, movieInDb.Poster.Path.TrimStart('/'));
-                //     if (System.IO.File.Exists(oldPath))
-                //         System.IO.File.Delete(oldPath);
-                // }
-
-                movieInDb.Poster = newPoster;
-
             }
-            await _repo.Set(id, movieInDb);
 
+            await _repo.Set(id, movieInDb);
         }
     }
 }
