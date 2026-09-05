@@ -1,0 +1,364 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{174470C2-C8E3-42EA-914C-328350D9CECF}|Films.csproj|c:\\users\\pc\\desktop\\asp-net\\films\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{174470C2-C8E3-42EA-914C-328350D9CECF}|Films.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{174470C2-C8E3-42EA-914C-328350D9CECF}|Films.csproj|c:\\users\\pc\\desktop\\asp-net\\films\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{174470C2-C8E3-42EA-914C-328350D9CECF}|Films.csproj|solutionrelative:controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{174470C2-C8E3-42EA-914C-328350D9CECF}|Films.csproj|c:\\users\\pc\\desktop\\asp-net\\films\\models\\filemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{174470C2-C8E3-42EA-914C-328350D9CECF}|Films.csproj|solutionrelative:models\\filemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{174470C2-C8E3-42EA-914C-328350D9CECF}|Films.csproj|c:\\users\\pc\\desktop\\asp-net\\films\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{174470C2-C8E3-42EA-914C-328350D9CECF}|Films.csproj|solutionrelative:models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{174470C2-C8E3-42EA-914C-328350D9CECF}|Films.csproj|c:\\users\\pc\\desktop\\asp-net\\films\\models\\moviecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{174470C2-C8E3-42EA-914C-328350D9CECF}|Films.csproj|solutionrelative:models\\moviecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{174470C2-C8E3-42EA-914C-328350D9CECF}|Films.csproj|c:\\users\\pc\\desktop\\asp-net\\films\\repositories\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{174470C2-C8E3-42EA-914C-328350D9CECF}|Films.csproj|solutionrelative:repositories\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{174470C2-C8E3-42EA-914C-328350D9CECF}|Films.csproj|c:\\users\\pc\\desktop\\asp-net\\films\\repositories\\crudrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{174470C2-C8E3-42EA-914C-328350D9CECF}|Films.csproj|solutionrelative:repositories\\crudrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{174470C2-C8E3-42EA-914C-328350D9CECF}|Films.csproj|c:\\users\\pc\\desktop\\asp-net\\films\\services\\extensions\\serviceproviderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{174470C2-C8E3-42EA-914C-328350D9CECF}|Films.csproj|solutionrelative:services\\extensions\\serviceproviderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{174470C2-C8E3-42EA-914C-328350D9CECF}|Films.csproj|c:\\users\\pc\\desktop\\asp-net\\films\\services\\interfaces\\icreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{174470C2-C8E3-42EA-914C-328350D9CECF}|Films.csproj|solutionrelative:services\\interfaces\\icreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{174470C2-C8E3-42EA-914C-328350D9CECF}|Films.csproj|c:\\users\\pc\\desktop\\asp-net\\films\\services\\interfaces\\idelete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{174470C2-C8E3-42EA-914C-328350D9CECF}|Films.csproj|solutionrelative:services\\interfaces\\idelete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{174470C2-C8E3-42EA-914C-328350D9CECF}|Films.csproj|c:\\users\\pc\\desktop\\asp-net\\films\\services\\interfaces\\idetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{174470C2-C8E3-42EA-914C-328350D9CECF}|Films.csproj|solutionrelative:services\\interfaces\\idetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{174470C2-C8E3-42EA-914C-328350D9CECF}|Films.csproj|c:\\users\\pc\\desktop\\asp-net\\films\\services\\interfaces\\iedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{174470C2-C8E3-42EA-914C-328350D9CECF}|Films.csproj|solutionrelative:services\\interfaces\\iedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{174470C2-C8E3-42EA-914C-328350D9CECF}|Films.csproj|c:\\users\\pc\\desktop\\asp-net\\films\\services\\createservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{174470C2-C8E3-42EA-914C-328350D9CECF}|Films.csproj|solutionrelative:services\\createservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{174470C2-C8E3-42EA-914C-328350D9CECF}|Films.csproj|c:\\users\\pc\\desktop\\asp-net\\films\\services\\deleteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{174470C2-C8E3-42EA-914C-328350D9CECF}|Films.csproj|solutionrelative:services\\deleteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{174470C2-C8E3-42EA-914C-328350D9CECF}|Films.csproj|c:\\users\\pc\\desktop\\asp-net\\films\\services\\detailsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{174470C2-C8E3-42EA-914C-328350D9CECF}|Films.csproj|solutionrelative:services\\detailsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{174470C2-C8E3-42EA-914C-328350D9CECF}|Films.csproj|c:\\users\\pc\\desktop\\asp-net\\films\\services\\editservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{174470C2-C8E3-42EA-914C-328350D9CECF}|Films.csproj|solutionrelative:services\\editservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{174470C2-C8E3-42EA-914C-328350D9CECF}|Films.csproj|c:\\users\\pc\\desktop\\asp-net\\films\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{174470C2-C8E3-42EA-914C-328350D9CECF}|Films.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{174470C2-C8E3-42EA-914C-328350D9CECF}|Films.csproj|c:\\users\\pc\\desktop\\asp-net\\films\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{174470C2-C8E3-42EA-914C-328350D9CECF}|Films.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{174470C2-C8E3-42EA-914C-328350D9CECF}|Films.csproj|c:\\users\\pc\\desktop\\asp-net\\films\\models\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{174470C2-C8E3-42EA-914C-328350D9CECF}|Films.csproj|solutionrelative:models\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{174470C2-C8E3-42EA-914C-328350D9CECF}|Films.csproj|c:\\users\\pc\\desktop\\asp-net\\films\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{174470C2-C8E3-42EA-914C-328350D9CECF}|Films.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IDetails.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Services\\Interfaces\\IDetails.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IDetails.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Services\\Interfaces\\IDetails.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T10:51:13.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ServiceProviderExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Services\\Extensions\\ServiceProviderExtensions.cs",
+              "RelativeDocumentMoniker": "Services\\Extensions\\ServiceProviderExtensions.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Services\\Extensions\\ServiceProviderExtensions.cs",
+              "RelativeToolTip": "Services\\Extensions\\ServiceProviderExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T10:53:06.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IDelete.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Services\\Interfaces\\IDelete.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IDelete.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Services\\Interfaces\\IDelete.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IDelete.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T10:50:38.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ICreate.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Services\\Interfaces\\ICreate.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\ICreate.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Services\\Interfaces\\ICreate.cs",
+              "RelativeToolTip": "Services\\Interfaces\\ICreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T10:50:28.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CRUDRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Repositories\\CRUDRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\CRUDRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Repositories\\CRUDRepository.cs",
+              "RelativeToolTip": "Repositories\\CRUDRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA8wDgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T10:54:05.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Repositories\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Repositories\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T10:53:48.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MovieContext.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Models\\MovieContext.cs",
+              "RelativeDocumentMoniker": "Models\\MovieContext.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Models\\MovieContext.cs",
+              "RelativeToolTip": "Models\\MovieContext.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwAQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T10:37:46.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Models\\Movie.cs",
+              "RelativeDocumentMoniker": "Models\\Movie.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Models\\Movie.cs",
+              "RelativeToolTip": "Models\\Movie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T10:37:04.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FileModel.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Models\\FileModel.cs",
+              "RelativeDocumentMoniker": "Models\\FileModel.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Models\\FileModel.cs",
+              "RelativeToolTip": "Models\\FileModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T10:36:48.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MovieController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Controllers\\MovieController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MovieController.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Controllers\\MovieController.cs",
+              "RelativeToolTip": "Controllers\\MovieController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAuwJsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T10:57:14.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Controllers\\HomeController.cs*",
+              "RelativeToolTip": "Controllers\\HomeController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T10:29:18.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IEdit.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Services\\Interfaces\\IEdit.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IEdit.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Services\\Interfaces\\IEdit.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IEdit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T10:51:32.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateService.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Services\\CreateService.cs",
+              "RelativeDocumentMoniker": "Services\\CreateService.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Services\\CreateService.cs",
+              "RelativeToolTip": "Services\\CreateService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T10:51:49.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DeleteService.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Services\\DeleteService.cs",
+              "RelativeDocumentMoniker": "Services\\DeleteService.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Services\\DeleteService.cs",
+              "RelativeToolTip": "Services\\DeleteService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T10:52:09.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DetailsService.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Services\\DetailsService.cs",
+              "RelativeDocumentMoniker": "Services\\DetailsService.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Services\\DetailsService.cs",
+              "RelativeToolTip": "Services\\DetailsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T10:52:24.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EditService.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Services\\EditService.cs",
+              "RelativeDocumentMoniker": "Services\\EditService.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Services\\EditService.cs",
+              "RelativeToolTip": "Services\\EditService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwv0MAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T10:52:39.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-05T10:39:49.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T10:28:37.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ApplicationContext.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Models\\ApplicationContext.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationContext.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Models\\ApplicationContext.cs",
+              "RelativeToolTip": "Models\\ApplicationContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T10:36:05.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ASP-NET\\Films\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T10:36:27.603Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
