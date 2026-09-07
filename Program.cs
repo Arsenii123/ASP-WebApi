@@ -40,7 +40,7 @@ namespace Films
                 app.UseSwaggerUI(); // UI на /swagger
             }
             app.UseStaticFiles();
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
 
             app.UseAuthorization();
 
